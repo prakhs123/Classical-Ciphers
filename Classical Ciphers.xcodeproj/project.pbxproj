@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		61459C951C468B9A0066A979 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61459C941C468B9A0066A979 /* main.cpp */; };
+		61459C9E1C468DA30066A979 /* Stallings_Standard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61459C9C1C468DA30066A979 /* Stallings_Standard.cpp */; };
+		61459CA31C46A1BF0066A979 /* Letter_Frequency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61459CA11C46A1BF0066A979 /* Letter_Frequency.cpp */; };
+		61459CA61C46A6C70066A979 /* Caesar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61459CA41C46A6C70066A979 /* Caesar.cpp */; };
+		61459CAD1C46B3DC0066A979 /* Vigenere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61459CAB1C46B3DC0066A979 /* Vigenere.cpp */; };
+		61459CB21C46C8E00066A979 /* Hill.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61459CB01C46C8E00066A979 /* Hill.cpp */; };
+		6158D2711C4823C100819DDC /* Playfair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6158D26F1C4823C100819DDC /* Playfair.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,31 @@
 /* Begin PBXFileReference section */
 		61459C911C468B9A0066A979 /* Classical Ciphers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Classical Ciphers"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61459C941C468B9A0066A979 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		61459C9C1C468DA30066A979 /* Stallings_Standard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stallings_Standard.cpp; sourceTree = "<group>"; };
+		61459C9D1C468DA30066A979 /* Stallings_Standard.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Stallings_Standard.hpp; sourceTree = "<group>"; };
+		61459C9F1C4691210066A979 /* pg19645.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pg19645.txt; sourceTree = "<group>"; };
+		61459CA01C4695AB0066A979 /* plaintext.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plaintext.txt; sourceTree = "<group>"; };
+		61459CA11C46A1BF0066A979 /* Letter_Frequency.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Letter_Frequency.cpp; sourceTree = "<group>"; };
+		61459CA21C46A1BF0066A979 /* Letter_Frequency.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Letter_Frequency.hpp; sourceTree = "<group>"; };
+		61459CA41C46A6C70066A979 /* Caesar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Caesar.cpp; sourceTree = "<group>"; };
+		61459CA51C46A6C70066A979 /* Caesar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Caesar.hpp; sourceTree = "<group>"; };
+		61459CA71C46AC440066A979 /* caesar ciphertext.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "caesar ciphertext.txt"; sourceTree = "<group>"; };
+		61459CA81C46AF140066A979 /* decrypted plaintext.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "decrypted plaintext.txt"; sourceTree = "<group>"; };
+		61459CA91C46AFC10066A979 /* caesar frequency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "caesar frequency.txt"; sourceTree = "<group>"; };
+		61459CAA1C46B0AF0066A979 /* plaintext frequency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "plaintext frequency.txt"; sourceTree = "<group>"; };
+		61459CAB1C46B3DC0066A979 /* Vigenere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vigenere.cpp; sourceTree = "<group>"; };
+		61459CAC1C46B3DC0066A979 /* Vigenere.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vigenere.hpp; sourceTree = "<group>"; };
+		61459CAE1C46B8190066A979 /* vigenere ciphertext.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "vigenere ciphertext.txt"; sourceTree = "<group>"; };
+		61459CAF1C46BCE60066A979 /* vigenere frequency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "vigenere frequency.txt"; sourceTree = "<group>"; };
+		61459CB01C46C8E00066A979 /* Hill.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hill.cpp; sourceTree = "<group>"; };
+		61459CB11C46C8E00066A979 /* Hill.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Hill.hpp; sourceTree = "<group>"; };
+		6158D26C1C47868E00819DDC /* hill ciphertext.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "hill ciphertext.txt"; sourceTree = "<group>"; };
+		6158D26D1C4789DC00819DDC /* hill frequency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "hill frequency.txt"; sourceTree = "<group>"; };
+		6158D26E1C47E53B00819DDC /* input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		6158D26F1C4823C100819DDC /* Playfair.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Playfair.cpp; sourceTree = "<group>"; };
+		6158D2701C4823C100819DDC /* Playfair.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Playfair.hpp; sourceTree = "<group>"; };
+		6158D2721C482F5D00819DDC /* playfair ciphertext.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "playfair ciphertext.txt"; sourceTree = "<group>"; };
+		6158D2731C48350300819DDC /* playfair frequency.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "playfair frequency.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +88,32 @@
 		61459C931C468B9A0066A979 /* Classical Ciphers */ = {
 			isa = PBXGroup;
 			children = (
+				6158D2731C48350300819DDC /* playfair frequency.txt */,
+				6158D26D1C4789DC00819DDC /* hill frequency.txt */,
+				61459CAF1C46BCE60066A979 /* vigenere frequency.txt */,
+				61459CA91C46AFC10066A979 /* caesar frequency.txt */,
+				61459CAA1C46B0AF0066A979 /* plaintext frequency.txt */,
+				6158D2721C482F5D00819DDC /* playfair ciphertext.txt */,
+				6158D26C1C47868E00819DDC /* hill ciphertext.txt */,
+				61459CAE1C46B8190066A979 /* vigenere ciphertext.txt */,
+				61459CA71C46AC440066A979 /* caesar ciphertext.txt */,
+				61459CA81C46AF140066A979 /* decrypted plaintext.txt */,
+				61459CA01C4695AB0066A979 /* plaintext.txt */,
+				61459C9F1C4691210066A979 /* pg19645.txt */,
+				6158D26E1C47E53B00819DDC /* input.txt */,
 				61459C941C468B9A0066A979 /* main.cpp */,
+				61459C9C1C468DA30066A979 /* Stallings_Standard.cpp */,
+				61459C9D1C468DA30066A979 /* Stallings_Standard.hpp */,
+				61459CA11C46A1BF0066A979 /* Letter_Frequency.cpp */,
+				61459CA21C46A1BF0066A979 /* Letter_Frequency.hpp */,
+				61459CA41C46A6C70066A979 /* Caesar.cpp */,
+				61459CA51C46A6C70066A979 /* Caesar.hpp */,
+				61459CAB1C46B3DC0066A979 /* Vigenere.cpp */,
+				61459CAC1C46B3DC0066A979 /* Vigenere.hpp */,
+				61459CB01C46C8E00066A979 /* Hill.cpp */,
+				61459CB11C46C8E00066A979 /* Hill.hpp */,
+				6158D26F1C4823C100819DDC /* Playfair.cpp */,
+				6158D2701C4823C100819DDC /* Playfair.hpp */,
 			);
 			path = "Classical Ciphers";
 			sourceTree = "<group>";
@@ -118,7 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61459CB21C46C8E00066A979 /* Hill.cpp in Sources */,
+				61459C9E1C468DA30066A979 /* Stallings_Standard.cpp in Sources */,
+				61459CA31C46A1BF0066A979 /* Letter_Frequency.cpp in Sources */,
+				61459CA61C46A6C70066A979 /* Caesar.cpp in Sources */,
 				61459C951C468B9A0066A979 /* main.cpp in Sources */,
+				61459CAD1C46B3DC0066A979 /* Vigenere.cpp in Sources */,
+				6158D2711C4823C100819DDC /* Playfair.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +299,7 @@
 				61459C9A1C468B9A0066A979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
