@@ -151,33 +151,6 @@ void Hill::MatrixInversion(int **A, int order, int **Y)
     delete [] minor;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 void Hill::encrypt(ifstream& plaintext, ofstream& ciphertext) {
     char ch[order];
     string pt, ciptext;

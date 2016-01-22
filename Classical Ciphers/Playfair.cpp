@@ -88,36 +88,6 @@ int Playfair::get2playfaircipchars(string ct, char& ch1, char& ch2) {
     return 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 void Playfair::encrypt(ifstream& plaintext, ofstream& ciphertext) {
     string pt, ciptext;
     pt = convert_stream_to_string(plaintext);
