@@ -29,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		611DAE831C52654D00AAF0FA /* Simmons Graph.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Simmons Graph.pdf"; sourceTree = "<group>"; };
 		61459C911C468B9A0066A979 /* Classical Ciphers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Classical Ciphers"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61459C941C468B9A0066A979 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		61459C9C1C468DA30066A979 /* Stallings_Standard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stallings_Standard.cpp; sourceTree = "<group>"; };
@@ -88,6 +89,7 @@
 		61459C931C468B9A0066A979 /* Classical Ciphers */ = {
 			isa = PBXGroup;
 			children = (
+				611DAE831C52654D00AAF0FA /* Simmons Graph.pdf */,
 				6158D2731C48350300819DDC /* playfair frequency.txt */,
 				6158D26D1C4789DC00819DDC /* hill frequency.txt */,
 				61459CAF1C46BCE60066A979 /* vigenere frequency.txt */,
