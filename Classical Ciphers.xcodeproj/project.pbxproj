@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6111949C1C5D740000C3D24D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6111949B1C5D740000C3D24D /* README.md */; };
 		61459C951C468B9A0066A979 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61459C941C468B9A0066A979 /* main.cpp */; };
 		61459C9E1C468DA30066A979 /* Stallings_Standard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61459C9C1C468DA30066A979 /* Stallings_Standard.cpp */; };
 		61459CA31C46A1BF0066A979 /* Letter_Frequency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61459CA11C46A1BF0066A979 /* Letter_Frequency.cpp */; };
@@ -29,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6111949B1C5D740000C3D24D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		611DAE841C52681C00AAF0FA /* Simmons Graph.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Simmons Graph.pdf"; sourceTree = "<group>"; };
 		61459C911C468B9A0066A979 /* Classical Ciphers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Classical Ciphers"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61459C941C468B9A0066A979 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 		61459C881C468B9A0066A979 = {
 			isa = PBXGroup;
 			children = (
+				6111949B1C5D740000C3D24D /* README.md */,
 				611DAE841C52681C00AAF0FA /* Simmons Graph.pdf */,
 				61459C931C468B9A0066A979 /* Classical Ciphers */,
 				61459C921C468B9A0066A979 /* Products */,
@@ -182,6 +185,7 @@
 				61459CA61C46A6C70066A979 /* Caesar.cpp in Sources */,
 				61459C951C468B9A0066A979 /* main.cpp in Sources */,
 				61459CAD1C46B3DC0066A979 /* Vigenere.cpp in Sources */,
+				6111949C1C5D740000C3D24D /* README.md in Sources */,
 				6158D2711C4823C100819DDC /* Playfair.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
